@@ -1,3 +1,5 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2e4b2a7dd3b04a56a0d9933ad8b50b28)](https://app.codacy.com/gh/EdTonatto/game-notes/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+
 # Game Notes
 
 Game Notes is a private project for taking notes on games. It uses React with Phosphor icons and Vite as a build tool.
