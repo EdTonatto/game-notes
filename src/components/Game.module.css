@@ -40,7 +40,7 @@
   height: 10rem;
   border-radius: 8px;
   border: 4px solid var(--black);
-  outline: 2px solid var(--blue-2)
+  outline: 2px solid var(--blue-2);
 }
 
 .gameDescription {

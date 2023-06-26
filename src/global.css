@@ -8,7 +8,7 @@
 }
 
 * {
-	margin: 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -17,9 +17,6 @@ body {
   background: var(--blue-2);
   color: var(--white);
   -webkit-font-smoothing: antialiased;
-}
-
-body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1rem;
