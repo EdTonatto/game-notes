@@ -1,20 +1,24 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/no-unescaped-entities */
 import styles from './Game.module.css';
 
-export function Game() {
+export function Game(props) {
   return (
     <article className={styles.game}>
       <header>
         <div className={styles.gameMasterInfo}>
           <img 
             className={styles.gameCover}
-            src="https://howlongtobeat.com/games/70093_Marvels_Spider-Man_Game_of_the_Year_Edition.jpg?width=250"
+            src={props.gameCoverImg}
           />
           <div className={styles.gameDetailInfo}>
-            <strong>Marvel's Spider-Man Remastered</strong>
-            <span>Released in 12 Aug, 2022</span>
-            <span>Published by PlayStation LLC</span>
+            <strong>{props.gameName}</strong>
+            <span>{props.publisher}</span>
           </div>
+        </div>
+
+        <div className={styles.gameDetailInfo}>
+          <span>{props.releaseDate}</span>
         </div>
       </header>
     </article>
