@@ -1,4 +1,4 @@
-import { Eye } from 'phosphor-react'
+import { Eye, GithubLogo } from 'phosphor-react'
 import styles from './Sidebar.module.css'
 
 export function Sidebar() {
@@ -19,9 +19,13 @@ export function Sidebar() {
       </div>
 
       <footer>
-        <a href="https://steamcommunity.com/id/edtonatto/">
+        <a href="https://steamcommunity.com/id/edtonatto/" target="_blank" rel="noreferrer">
           <Eye />
           View Profile
+        </a>
+        <a href="https://github.com/edtonatto/game-notes/" target="_blank" rel="noreferrer">
+          <GithubLogo />
+          Github Repo
         </a>
       </footer>
     </aside> 
