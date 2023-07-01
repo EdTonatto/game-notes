@@ -21,6 +21,10 @@ export function Game(props) {
           <span>{props.releaseDate}</span>
         </div>
       </header>
+
+      <div className={styles.content}>
+        <p>{props.note}</p>
+      </div>
     </article>
   )
 }
