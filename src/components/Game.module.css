@@ -29,7 +29,7 @@
   line-height: 1.6rem;
 }
 
-.gameDetailInfo span {
+.gameDetailInfo span, time {
   display: block;
   color: var(--gray);
   line-height: 1.6rem;
