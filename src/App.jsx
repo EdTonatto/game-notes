@@ -5,6 +5,8 @@ import styles from './App.module.css'
 import { Sidebar } from './components/Sidebar'
 import { Game } from './components/Game'
 
+const now = new Date();
+
 const games = [
   {
     id: 1,
@@ -20,7 +22,7 @@ const games = [
       {order: 3, type: 'P', content: 'My actual playtime is about 20 hours and 65% complete.'},
       {order: 4, type: 'P', content: '10/10 game'},
     ],
-    publishedAt: new Date('2023-07-02 19:45:00')
+    publishedAt: new Date(now.setMinutes(now.getMinutes() - 25)),
   },
   {
     id: 2,
@@ -31,7 +33,7 @@ const games = [
       publisher: 'Published by Poncle'
     },
     content: [],
-    publishedAt: new Date('2023-07-02 19:00:00')
+    publishedAt: new Date(now.setHours(now.getHours() - 5))
   },
   {
     id: 3,
@@ -42,7 +44,7 @@ const games = [
       publisher: 'Published by Valve'
     },
     content: [],
-    publishedAt: new Date('2023-07-01 12:00:00')
+    publishedAt: new Date(now.setDate(now.getDate() - 2))
   },
   {
     id: 4,
@@ -53,7 +55,18 @@ const games = [
       publisher: 'Published by Xbox Game Studios'
     },
     content: [],
-    publishedAt: new Date('2023-06-15 00:00:00')
+    publishedAt: new Date(now.setMonth(now.getMonth() - 1))
+  },
+  {
+    id: 5,
+    game: {
+      name: "Red Dead Redemption 2",
+      coverImg: "https://howlongtobeat.com/games/27100_Red_Dead_Redemption_2.jpg?width=250",
+      releaseDate: new Date('2018-10-26 00:00:00'),
+      publisher: 'Published by Rockstar Games'
+    },
+    content: [],
+    publishedAt: new Date(now.setFullYear(now.getFullYear() - 1))
   }
 ]
 

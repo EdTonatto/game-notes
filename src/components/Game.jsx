@@ -5,7 +5,7 @@ import styles from './Game.module.css';
 
 export function Game({ game, content, publishedAt }) {
   const releaseDate = format(game.releaseDate, "dd LLL',' yyyy");
-  const publishedDate = format(publishedAt, "dd LLL");
+  const publishedDate = format(publishedAt, "dd LLL',' yy");
   const publishedDateToNow = formatDistanceToNow(publishedAt, { addSuffix: true });
 
   return (
