@@ -13,6 +13,9 @@
 
 Game Notes is a private project for taking notes on games. It uses React with Phosphor icons and Vite as a build tool.
 
+<p align="center"><img src="./game-notes-interface.png" width="75%" /></p>
+<p align="center"><img src="./game-notes-styles.png" width="75%" /></p>
+
 ## Installation
 
 To install dependencies, run:
@@ -42,7 +45,7 @@ npm run deploy
 ```
 
 ## Dependencies
-
+  - date-fns: ^2.30.0
   - phosphor-react: ^1.4.1
   - react: ^18.2.0
   - react-dom: ^18.2.0
