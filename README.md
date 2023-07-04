@@ -1,7 +1,13 @@
-![GitHub package.json version (main)](https://img.shields.io/github/package-json/v/EdTonatto/game-notes/main?label=main)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b7fbfe896b3748fcbfef346f14eebafe)](https://app.codacy.com/gh/EdTonatto/game-notes/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-[![CI](https://github.com/EdTonatto/game-notes/actions/workflows/main.yml/badge.svg)](https://github.com/EdTonatto/game-notes/actions/workflows/main.yml)
-[![License](https://img.shields.io/github/license/EdTonatto/game-notes.svg)](https://github.com/EdTonatto/game-notes/blob/main/LICENSE)
+<p align="center">
+  <img src="./src/assets/logo.png" width="140px" />
+</p>
+
+<div align="center">
+  <a><img src="https://img.shields.io/github/package-json/v/EdTonatto/game-notes/main?label=main"/></a>
+  <a href="https://app.codacy.com/gh/EdTonatto/game-notes/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade"><img src="https://app.codacy.com/project/badge/Grade/b7fbfe896b3748fcbfef346f14eebafe"/></a>
+  <a href="https://github.com/EdTonatto/game-notes/actions/workflows/main.yml"><img src="https://github.com/EdTonatto/game-notes/actions/workflows/main.yml/badge.svg"/></a>
+  <a href="https://github.com/EdTonatto/game-notes/blob/main/LICENSE"><img src="https://img.shields.io/github/license/EdTonatto/game-notes.svg"/></a>
+</div>
 
 # Game Notes
 
